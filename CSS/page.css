@@ -6,9 +6,15 @@
  flex-direction: column;
 }
 .header-flex{
- height: 40px;
  display: flex;
  flex-direction: row;
+ justify-content: space-between;
+}
+.search-bar-div{
+ flex: 1;
+ padding: 2px;
+ margin-left: 20px;
+ margin-right: 20px;
 }
 .body-grid{
  flex: 1;
@@ -16,6 +22,43 @@
 .thumbnail-grid{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
- column-gap: 40px;
+ column-gap: 20px;
  row-gap: 20px;
 }
+.search-bar{
+ height: 30px;
+width: 60%;
+
+}
+.thumbnail{
+ width: 100%;
+}
+.channel-div{
+ display: flex;
+ flex-direction: row;
+}
+.channel-image-div{
+ width: 50px;
+}
+.video-info-div{
+ flex: 1;
+}
+p{
+ margin: 0px;
+}
+.header-3{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+.header-1{
+padding-top: 6px;
+}
+.header-2{
+ display: flex;
+ flex-direction: row;
+ align-content: center;
+ justify-content: center;
+}
+
