@@ -12,33 +12,47 @@ button{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+ height: 40px;
 }
 .search-bar-div{
  flex: 1;
  display: flex;
- flex-direction: row;
  margin-left: 70px;
  margin-right: 35px;
  align-items: center;
- max-width: 2000px;
+ max-width: 800px;
 }
 .thumbnail-grid{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
  column-gap: 20px;
  row-gap: 20px;
 }
 .search-bar{
- height: 30px;
+ height: 31px;
+ width: 0;
 flex: 1;
-
+padding-left: 8px;
+color: gray;
+font-size: 16px;
+box-shadow: inset,1px,2px,rgba(128, 128, 128, 0.507);
+border-width: 1px;
+ border-style: solid;
+ border-color: rgba(128, 128, 128, 0.615);
+ border-top-left-radius: 15px;
+ border-bottom-left-radius: 15px;
+}
+.search-bar::placeholder{
+ font-family: Roboto, Arial;
+ font-size: 16px;
+ font-weight: 300;
 }
 .thumbnail{
  width: 100%;
 }
 .channel-div{
  display: flex;
- flex-direction: row;
+ 
  padding: 4px;
 }
 .video-info-div{
@@ -47,27 +61,22 @@ flex: 1;
 p{
  margin: 0px;
 }
-.channel-div{
- display: flex;
- flex-direction: row;
-}
 .my-channel-div{
  display: flex;
- flex-direction: row;
  align-items: center;
- justify-content: space-between;
+}
+.header-3-3{
+ flex: 1;
+ margin-left: 5px;
 }
 .youtube-logo-div{
  display: flex;
- flex-direction: row;
- justify-content: space-between;
+margin-left: 2px;
  align-items: center;
 }
 .header-2-1{
  flex: 1;
  display: flex;
- flex-direction: row;
- justify-content: center;
  align-items: center;
 }
 
