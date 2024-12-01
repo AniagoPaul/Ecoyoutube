@@ -1,9 +1,12 @@
+body{
+ margin: 0;
+}
+button{
+ margin: 0;
+}
 .video-info-div{
  width: 220px;
-}
-.body-flex{
- display: flex;
- flex-direction: column;
+ margin-left: 3px;
 }
 .header-flex{
  display: flex;
@@ -12,12 +15,12 @@
 }
 .search-bar-div{
  flex: 1;
- padding: 2px;
- margin-left: 20px;
- margin-right: 20px;
-}
-.body-grid{
- flex: 1;
+ display: flex;
+ flex-direction: row;
+ margin-left: 70px;
+ margin-right: 35px;
+ align-items: center;
+ max-width: 2000px;
 }
 .thumbnail-grid{
 display: grid;
@@ -27,7 +30,7 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 .search-bar{
  height: 30px;
-width: 60%;
+flex: 1;
 
 }
 .thumbnail{
@@ -36,9 +39,7 @@ width: 60%;
 .channel-div{
  display: flex;
  flex-direction: row;
-}
-.channel-image-div{
- width: 50px;
+ padding: 4px;
 }
 .video-info-div{
  flex: 1;
@@ -46,19 +47,28 @@ width: 60%;
 p{
  margin: 0px;
 }
-.header-3{
+.channel-div{
+ display: flex;
+ flex-direction: row;
+}
+.my-channel-div{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-between;
+}
+.youtube-logo-div{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
  align-items: center;
 }
-.header-1{
-padding-top: 6px;
-}
-.header-2{
+.header-2-1{
+ flex: 1;
  display: flex;
  flex-direction: row;
- align-content: center;
  justify-content: center;
+ align-items: center;
 }
+
 

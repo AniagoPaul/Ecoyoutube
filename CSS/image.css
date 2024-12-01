@@ -1,3 +1,6 @@
+img{
+ margin: 0;
+}
 .channel-image{
  width: 25px;
  border-radius: 15px;
@@ -14,25 +17,33 @@
 .hamburger-menu{
  height: 20px;
 }
-.search-butt-image{
- height: 15px;
-}
 .voice-search-icon{
- width: 15px;
- 
+ width: 40px;
+}
+.search-butt-image{
+ width: 20px;
 }
 .upload, .youtube-apps, .my-channel, .notification{
  height: 30px;
 }
 .voice-but{
- width: 30px;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ width: 20px;
 height: 30px;
- border-radius: 15px;
+ border-radius: 13px;
  border-width: 0px;
  margin-left: 10px;
- padding: 5px;
+
 }
 .search-but{
- margin: -0.05px;
- padding: 5px;
+ margin-left:  -1.0px;
+ padding-top: 5px;
+ border-width: 2px;
+ border-color: black;
+ border-radius: 2px;
+ height: 35px;
+ width: 60px;
 }
+
