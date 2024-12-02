@@ -2,6 +2,8 @@ p{
  font-size: 15px;
  font-family: Roboto, Arial;
  font-weight: 300;
+ margin: 0;
+ margin-top: 1px;
 }
 .view-info{
  font-size: 10px;
@@ -15,4 +17,65 @@ p{
  font-family: Roboto, Arial;
  font-weight: 400;
  color: black;
+}
+.thumbnail-clip{
+ color: white;
+ background-color: black;
+ font-family: Roboto, Arial;
+ font-size: 10px;
+ font-weight: 700px;
+ position: absolute;
+ bottom: 20px;
+ right: 5px;
+ width: 30px;
+ padding: 4px 4px 4px 4px;
+
+}
+.header-3-1,
+.header-3-2,
+.header-3-4,
+.header-3-3{
+ height: 25px;
+ width: 25px;
+ margin-left: 30px;
+ position: relative;
+}
+.header-3-1 .tooltip{
+ position: absolute;
+ pointer-events: none;
+ opacity: 0;
+ width: 35px;
+ left: 5px;
+ bottom: -30px;
+}
+.header-3-1:hover .tooltip{
+ opacity: 1;
+ cursor: pointer;
+ border-radius: 4px;
+}
+.header-3-2 .tooltip{
+ position: absolute;
+ pointer-events: none;
+ opacity: 0;
+ width: 35px;
+ left: 5px;
+ bottom: -30px;
+}
+.header-3-2:hover .tooltip{
+ opacity: 1;
+ cursor: pointer;
+ border-radius: 4px;
+}
+.header-3-3 .tooltip{
+ position: absolute;
+ pointer-events: none;
+ opacity: 0;
+ width: 50px;
+ left: 5px;
+ bottom: -30px;
+}
+.header-3-3:hover .tooltip{
+ opacity: 1;
+ cursor: pointer;
+ border-radius: 4px;
 }

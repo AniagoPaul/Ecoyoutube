@@ -1,0 +1,17 @@
+.sidename{
+ font-size: 10px;
+ font-family: Arial, Roboto;
+
+}
+.image-div{
+ position: relative;
+}
+.tooltip{
+ font-size: 10px;
+ font-family: Arial, Roboto;
+ color: white;
+ background-color: rgb(155, 155, 155);
+ font-weight: 300;
+ padding: 4px 4px 4px 4px;
+ border-radius: 4px;
+}
